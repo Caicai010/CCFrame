@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>556</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form
+{
+    border: 1px solid #32435E;
+    border-radius: 5px;                /*控件边框的弧度，数值越大，则弯曲得越厉害*/
+    /* padding: 0 8px; */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,    /*背景*/
+                             stop: 0 #113845,
+                             stop: 1.0 #15A8FF);
+    selection-background-color: #0A246A;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>160</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
